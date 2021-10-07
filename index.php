@@ -1,17 +1,4 @@
 <?php
-    /*
-    //definisco variabile name
-    $name = 'Dario';
-    //lenght
-    $lenName = strlen($name);
-    //frase
-    $frase = 'Ciao come stai? ';
-    //metodo split
-    $myArray = explode(",", $frase);
-    //colori
-    $colori = ['giallo', 'verde', 'blu'];
-    */
-
     /* ESERCIZIO DI OGGI*/
     //variabile paragrafo
     $lorem = 'Lorem ipsum dolor sit amet, consectetur adipisci elit, 
@@ -32,11 +19,6 @@
     
 ?>
 
-<h1>Ciao mondo <?php echo $name ?> </h1>
-<h2> <?php echo $lenName?> </h2>
-<h2> <?php echo $myArray[0]?> </h2>
-<h2> <?php echo $myArray[1]?> </h2>
-<h2> <?php var_dump($colori) ?> </h2>
 
 
 <!-- esercizio di oggi -->
