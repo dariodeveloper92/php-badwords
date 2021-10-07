@@ -8,7 +8,7 @@
     //lunghezza variabile
     $lenLorem = strlen($lorem);
    //GET 
-    $badword = $_GET['ut'];
+    $badword = $_GET['parola'];
     //metodo sostituisci - replace
     $string2 = str_replace($badword, '***', $lorem );
     
