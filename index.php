@@ -7,14 +7,10 @@
     suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.';
     //lunghezza variabile
     $lenLorem = strlen($lorem);
-    //1° Metodo ----------------------------------
+   //GET 
+    $badword = $_GET['ut'];
     //metodo sostituisci - replace
-    $string2 = str_replace('ut', '**', $lorem );
-    //2° Metodo ----------------------------------
-    //variabile badword
-    $badword = 'mcc';
-    //GET 
-    $_GET['badword'];
+    $string2 = str_replace($badword, '***', $lorem );
     
     
 ?>
